@@ -10,7 +10,6 @@ const stop = (message) => {
 
     // Arrêter la musique (si elle est en cours)
     queue.stop();
-
     return message.channel.send("J'ai arrêté la musique.");
 }
 
